@@ -6,7 +6,7 @@ We are a team of five building a modern, cloud-based web solution for a local ic
 
 Our goal is to solve operational challenges—such as order mix-ups and high booking demand—by moving the business to the AWS cloud.
 
-Using **AWS S3**, **CloudFront**, and **Cognito**, we are developing a secure and scalable static website that:
+Using **AWS S3** and **CloudFront**, we can develop a secure and scalable static website that:
 - Improves customer experience  
 - Simplifies order management  
 - Provides a professional online presence
