@@ -31,7 +31,6 @@ Overall, Amazon S3 was a great choice for our ice cream shop website because it 
 
  <img width="600" height="350" alt="image (2)" src="https://github.com/user-attachments/assets/b9b63ee4-3ce2-4734-8671-1077d521a84a" />
 
-Management Console
 
 
 ## 2. Access AWS Management Console
