@@ -11,7 +11,17 @@ Using **AWS S3**, **CloudFront**, and **Cognito**, we are developing a secure an
 - Simplifies order management  
 - Provides a professional online presence
 
+## Why We Chose Amazon S3
 
+For this project, we decided to use Amazon S3 (Simple Storage Service) to host our website.
+
+Amazon S3 is a reliable and scalable cloud storage service that makes it easy to store and serve static website files such as HTML, CSS, and images. It is widely used for web hosting because of its simplicity and performance.
+
+One of the main advantages is that S3 allows us to host a static website without needing to manage a server. This makes the setup faster and reduces complexity.
+
+Additionally, S3 provides high availability, meaning the website can be accessed at any time, and it can easily scale if the project grows.
+
+Overall, Amazon S3 was a great choice for our ice cream shop website because it is easy to use, cost-effective, and perfect for static web hosting.
 
 ## 1. Start Sandbox
 
