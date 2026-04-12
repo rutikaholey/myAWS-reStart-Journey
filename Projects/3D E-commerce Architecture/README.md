@@ -7,82 +7,82 @@
 
 **Networking & Traffic Management**
 1. **Amazon Route 53**: Managed DNS (Domain Name System) service.
-Why it’s used: Routes global users to the correct region (Europe or Asia).
-Supports latency-based or failover routing for high availability.
-Ensures users reach the closest healthy endpoint.
+<br> Why it’s used: Routes global users to the correct region.
+<br> Supports latency-based or failover routing for high availability.
+<br> Ensures users reach the closest healthy endpoint.
 
-2. **Amazon CloudFront**: Content Delivery Network (CDN).
-Why it’s used: Caches static and dynamic content at edge locations.
-Reduces latency for global users.
-Improves performance and reduces load on backend servers.
+3. **Amazon CloudFront**: Content Delivery Network (CDN).
+<br> Why it’s used: Caches static and dynamic content at edge locations.
+<br> Reduces latency for global users.
+<br> Improves performance and reduces load on backend servers.
 
-3. **Elastic Load Balancing (ELB)**: Distributes incoming traffic across multiple servers.
-Why it’s used: Prevents single-server overload.
-Increases availability and fault tolerance.
-Works with Auto Scaling groups.
+4. **Elastic Load Balancing (ELB)**: Distributes incoming traffic across multiple servers.
+<br> Why it’s used: Prevents single-server overload.
+<br> Increases availability and fault tolerance.
+<br> Works with Auto Scaling groups.
 
 **Compute Layer**
 
 4. **Amazon EC2**: Virtual servers in the cloud.
-Why it’s used: Hosts application services.
-Provides scalable compute power.
-Runs in multiple Availability Zones for resilience.
+<br> Why it’s used: Hosts application services.
+<br> Provides scalable compute power.
+<br> Runs in multiple Availability Zones for resilience.
 
 5. **AWS Lambda**: Serverless compute service.
-Why it’s used: Runs event-driven tasks without managing servers.
-Ideal for background jobs, microservices, and automation.
-Reduces operational overhead.
+<br> Why it’s used: Runs event-driven tasks without managing servers.
+<br> Ideal for background jobs, microservices, and automation.
+<br> Reduces operational overhead.
 
 6. **EC2 Auto Scalin**g: Automatically adjusts EC2 capacity.
-Why it’s used: Scales out during high traffic.
-Scales in during low demand to save cost.
-Maintains application performance.
+<br> Why it’s used: Scales out during high traffic.
+<br> Scales in during low demand to save cost.
+<br> Maintains application performance.
 
 **Storage & Databases**
 
 7. **Amazon S3**: Object storage service.
-Why it’s used:Stores static assets (images, videos, backups).
-Highly durable and scalable.
-Works well with CloudFront for content delivery.
+<br> Why it’s used: Stores static assets (images, videos, backups).
+<br> Highly durable and scalable.
+<br> Works well with CloudFront for content delivery.
 
 8. **Amazon Aurora**: Managed relational database (MySQL/PostgreSQL compatible).
-Why it’s used: Stores structured transactional data.
-High performance and automatic failover.
-Suitable for e-commerce orders, payments, users.
+<br> Why it’s used: Stores structured transactional data.
+<br> High performance and automatic failover.
+<br> Suitable for e-commerce orders, payments, users.
 
 9. **Amazon DynamoDB**: Fully managed NoSQL database.
-Why it’s used:Handles high-speed, large-scale key-value data.
-Low latency at any scale.
-Ideal for sessions, carts, metadata.
+<br> Why it’s used: Handles high-speed, large-scale key-value data.
+<br> Low latency at any scale.
+<br> Ideal for sessions, carts, metadata.
 
 **Security & Protection**
 
 10. **AWS Shield**: DDoS protection service.
-Why it’s used:Protects applications from distributed denial-of-service attacks.
+<br> Why it’s used: Protects applications from distributed denial-of-service attacks.
 
 11. **AWS WAF**: Web Application Firewall.
-Why it’s used: Protects against SQL injection, XSS, and common web exploits.
-Filters malicious HTTP requests.
+<br> Why it’s used: Protects against SQL injection, XSS, and common web exploits.
+<br> Filters malicious HTTP requests.
 
 12. **AWS Identity and Access Management (IAM)**: Access control management.
-Why it’s used: Manages user permissions and roles.
-Ensures least-privilege access across services.
+<br> Why it’s used: Manages user permissions and roles.
+<br> Ensures least-privilege access across services.
 
 13. **AWS Key Management Service (KMS)**: Encryption key management.
-Why it’s used: Encrypts data at rest and in transit.
-Secures databases and storage.
+<br> Why it’s used: Encrypts data at rest and in transit.
+<br> Secures databases and storage.
 
 **Monitoring & Optimization**
 
 14. **Amazon CloudWatch**: Monitoring and logging service.
-Why it’s used: Tracks performance metrics.
-Sets alarms for failures or high usage.
-Centralized logging.
+<br> Why it’s used: Tracks performance metrics.
+<br> Sets alarms for failures or high usage.
+<br> Centralized logging.
 
 15. **AWS Trusted Advisor**: Best-practice recommendation service.
-Why it’s used: Improves cost optimization.
-Enhances security and performance.
-Identifies underutilized resources.
+<br> Why it’s used: Improves cost optimization.
+<br> Enhances security and performance.
+<br> Identifies underutilized resources.
 
 ## How our architecture meets each of the 5 requirements:
 
