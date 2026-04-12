@@ -1,5 +1,6 @@
 ## 3D E-Commerce Platform Architecture on AWS
 
+<img width="750" height="540" alt="3D E-commerce" src="https://github.com/user-attachments/assets/8c82e961-6f04-4286-b022-5f6e7f753cb0" />
 
 
 ## AWS Services used and Why we chose each AWS service:
