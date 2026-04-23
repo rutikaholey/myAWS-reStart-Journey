@@ -1,4 +1,4 @@
-AWS SimuLearn – Security Concepts Certificate
+## AWS SimuLearn – Security Concepts Certificate
 
 I completed the AWS SimuLearn Security Concepts course to build a strong foundation in AWS cloud security and identity management.
 
@@ -11,3 +11,4 @@ In this course, I learned the basics of how access and security work in AWS, inc
 
 This certificate reflects my growing understanding of AWS security fundamentals and my commitment to building secure and responsible cloud solutions.
 
+<object data="Certification &Badges/Core Security Concept_Certificate.pdf" type="application/pdf" width="50%"></object>
